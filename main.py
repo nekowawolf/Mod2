@@ -1,14 +1,15 @@
 import timeout
-import socketerror
-import modif_buffer
-import buffer
+import error
+import check_buff
+import size_buff
 
 if __name__ == '__main__':
     print("Executing timeout.py")
     timeout.test_socket_timeout()
-    print("\nExecuting socketerror.py")
-    socketerror.main()
-    print("\nExecuting buffer.py")
-    buffer.get_default_buffer_size()
-    print("\nExecuting modif_buffer.py")
-    modif_buffer.modify_buff_size()
+    print("\nExecuting error.py")
+    error.main()
+    print("\nExecuting check_buff.py")
+    check_buff.get_default_buffer_size()
+    print("\nExecuting size_buff.py")
+    size_buff.modify_buff_size()
+    
